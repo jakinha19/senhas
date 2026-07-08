@@ -1,9 +1,9 @@
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --cor-de-fundo: #e687c1;
+    --fundo-senha: #ea8af7;
+    --fundo-texto: #ff8be2;
+    --borda: #fdb4fa;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -19,6 +19,11 @@ body{
 }
 
 .titulo-principal{
+    font-size: 24px;
+}    
+
+
+.parametro-senha__texto{
     font-family: var(--roboto-mono);
     font-size: 32px;
 }
